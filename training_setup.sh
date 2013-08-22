@@ -8,6 +8,7 @@
 `sudo dpkg -i google-chrome-stable_current_amd64.deb 2>&1 >/dev/null`
 `sudo apt-get -y -f install 2>&1 >/dev/null`
 `sudo dpkg -i google-chrome-stable_current_amd64.deb 2>&1 >/dev/null`
+`sudo apt-get -y install vim openjdk-7-jre`
 `wget https://github.com/OpenRefine/OpenRefine/releases/download/2.5/google-refine-2.5-r2407.tar.gz 2>&1 >/dev/null`
 `tar -zxf google-refine-2.5-r2407.tar.gz 2>&1 >/dev/null`
 `mv google-refine-2.5 /home/odi`

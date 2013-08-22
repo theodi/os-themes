@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Google Refine
 Comment=
-Exec=/home/david/google-refine-2.5/refine
+Exec=/home/odi/google-refine-2.5/refine
 Icon=refine
 Terminal=true
 Type=Application

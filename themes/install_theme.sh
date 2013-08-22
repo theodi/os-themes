@@ -10,9 +10,9 @@ if [ ! -d "$DIR" ]; then
 	echo "Theme dir $DIR not found";
 	exit 1;
 fi
-RET=`ln -s $DIR /lib/plymouth/themes/`
+RET=`ln -s $DIR /lib/plymouth/themes/$2`
 echo $RET;
-RET=`update-alternatives --install /lib/plymouth/themes/default.plymouth default.plymouth /lib/plymouth/themes/$1/$1.plymouth 100`
+RET=`update-alternatives --install /lib/plymouth/themes/default.plymouth default.plymouth /lib/plymouth/themes/$2/$2.plymouth 100`
 RET=`update-initramfs -u`
 echo "Theme installed, you can check by running the following:";
 echo "";

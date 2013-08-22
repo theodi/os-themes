@@ -3,6 +3,7 @@
 # Default script for a training laptop running ubuntu 
 #
 `sudo ./themes/install_theme.sh themes/ODI-Outline ODI-Outline 2>&1 >/dev/null`
+`sudo update-initramfs -u` 
 `./wallpapers/install_wallpaper.sh wallpapers/OC_ODI.jpg 2>&1 >/dev/null`
 `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 2>&1 >/dev/null`
 `sudo dpkg -i google-chrome-stable_current_amd64.deb 2>&1 >/dev/null`

@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=ODI-Outline
-Description=ODI Theme using outline white logo
-ModuleName=script
-
-[script]
-ImageDir=/lib/plymouth/themes/ODI-Outline
-ScriptFile=/lib/plymouth/themes/ODI-Outline/ODI.script

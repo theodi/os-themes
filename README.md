@@ -1,7 +1,7 @@
 Operating System Themes
 =======================
 
-Some ODI based themes for operating systems
+We maintain a few ODI branded laptops for training. This is where we store our custom themes. Currently we have only have a theme for ubuntu.
 
 License
 -------
